@@ -1,0 +1,13 @@
+.dashboard-container {
+  width: 98.5dvw;
+  max-width: 100dvw;
+  min-height: 100dvh;
+  display: grid;
+  align-items: flex-start;
+  justify-content: flex-start;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  padding: 16px;
+  grid-template-columns: 1fr 4fr;
+  background-color: var(--dl-color-fondo-dark);
+}
